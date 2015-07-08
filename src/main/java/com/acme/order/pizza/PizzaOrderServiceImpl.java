@@ -31,7 +31,7 @@ public class PizzaOrderServiceImpl implements PizzaOrderService {
 	private final DeliveryTimeService deliveryTimeService;
 
 	private final MessageTemplateService messageTemplate;
-
+	
 	public PizzaOrderServiceImpl() {
 		this.orderFactory = new OrderFactory();
 		this.orderRepository = new HashMapOrderRepository();
