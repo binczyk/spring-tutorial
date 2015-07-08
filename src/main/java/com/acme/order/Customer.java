@@ -10,5 +10,7 @@ public class Customer {
 	private final String email;
 
 	private final String address;
+	
+	
 
 }

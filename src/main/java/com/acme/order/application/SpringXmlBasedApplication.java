@@ -1,5 +1,7 @@
 package com.acme.order.application;
 
+import org.springframework.context.ApplicationContext;
+
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j

@@ -23,9 +23,9 @@ import com.acme.order.notification.SimpleMessageTemplateService;
 public class PizzaOrderServiceImpl implements PizzaOrderService {
 
 	private final MailSender mailSender;
-
+	
 	private final OrderRepository orderRepository;
-
+	
 	private final OrderFactory orderFactory;
 
 	private final DeliveryTimeService deliveryTimeService;
